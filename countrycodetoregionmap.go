@@ -2,7 +2,7 @@ package libphonenumber
 
 // TODO(ttacon): do we need to worry about load factor?
 
-var CountryCodeToRegion = map[int][]string{
+var CountryCodeToRegion = map[int32][]string{
 	1: []string{
 		"US", "AG", "AI", "AS", "BB", "BM", "BS", "CA", "DM", "DO",
 		"GD", "GU", "JM", "KN", "KY", "LC", "MP", "MS", "PR", "SX",
